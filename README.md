@@ -50,11 +50,15 @@ O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite
 
 <summary>Controle das regras</summary>
 
-### **Passo 4**: Vamos navegar pelas opções que irão abrir após clicar na imagem anterior.
-  
-![image](https://github.com/CaioDSPeixoto/CodeCleanupProfile/assets/72414478/4ec69115-3e02-4760-9595-18728e6cfb16)
+### **Passo 4**: Para adicionar ou remover uma fixer é bem simples, vamos seguir essa breve explicação.
 
-- Por padrão, a ferramenta vem com dois perfis de limpeza do código, sendo eles totalmente configuráveis.
+:arrow_up: Para adicionar da lista das fixers disponíveis (embaixo) para a lista de fixers aplicadas (encima).
+
+:arrow_down: Para remover da lista de fixers aplicadas (encima) e retornar para a lista de fixers disponíveis (embaixo).
+  
+![codecleanup](https://github.com/CaioDSPeixoto/CodeCleanupProfile/assets/72414478/dc48cc7c-49c9-4c16-9f0e-4796632042b3)
+
+- Após finalizar os ajustes, basta clicar em OK para salvar as alterações.
 
 </details>
 
@@ -62,35 +66,8 @@ O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite
 
 <summary>Explicação das fixers</summary>
 
-### **Passo 5**: Vamos navegar pelas opções que irão abrir após clicar na imagem anterior.
-  
-Organizar Usings (Sort and Remove Unused Usings):
-
-Descrição: Organiza e classifica as declarações using no início do arquivo. Também remove aqueles que não são mais necessários.
-Formatar Código (Format Code):
-
-Descrição: Aplica formatação consistente ao código, como indentação, espaçamento e quebras de linha de acordo com as convenções de codificação.
-Corrigir Espaços em Branco (Fix White Spaces):
-
-Descrição: Remove espaços em branco extras ou adiciona espaços em branco conforme necessário para garantir uma consistência na formatação do código.
-Corrigir Nomes (Fix Naming):
-
-Descrição: Renomeia variáveis, métodos ou classes para seguir as convenções de nomenclatura definidas, garantindo consistência no código.
-Reformatar Documento (Reorder Type and Member Declarations):
-
-Descrição: Organiza a ordem de declaração de tipos e membros de acordo com convenções específicas.
-Corrigir Constantes Mágicas (Use Explicit Type for Constants):
-
-Descrição: Substitui constantes mágicas por constantes com tipos explícitos para melhorar a legibilidade e manutenção do código.
-Aplicar Padrões de C# (Apply C# Code Style):
-
-Descrição: Aplica estilos de código específicos do C# para garantir consistência no código, como a disposição de chaves, o uso de var ou tipos explícitos, entre outros.
-Corrigir Comentários (Remove and Sort Usings):
-
-Descrição: Remove comentários desnecessários ou desatualizados e organiza os comentários restantes para manter a clareza.
-Aplicar Padrões de Formatação de Documento (Format Document):
-
-Descrição: Realiza uma formatação abrangente do documento, ajustando a indentação, espaçamento e quebras de linha conforme as configurações definidas.
+| Fixers  | Descricao | Url role| 
+|---------|-----------|---------|
 
 </details>
 
