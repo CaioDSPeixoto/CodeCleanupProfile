@@ -1,8 +1,8 @@
-# Code Cleanup Profile (Visual Studio 2022)
+# :rocket: Code Cleanup Profile (Visual Studio 2022)
 
 O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite automatizar a limpeza e aprimoramento do código-fonte por meio de uma série de correções automáticas conhecidas como "fixers". Cada fixer corresponde a uma regra ou conjunto de regras que abordam problemas específicos no código.
 
-## Como faço para acessar essa funcionalidade?
+## :desktop_computer: Como faço para acessar essa funcionalidade?
 
 <details>
 
@@ -55,7 +55,11 @@ O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite
 :arrow_up: Para adicionar da lista das fixers disponíveis (embaixo) para a lista de fixers aplicadas (encima).
 
 :arrow_down: Para remover da lista de fixers aplicadas (encima) e retornar para a lista de fixers disponíveis (embaixo).
-  
+
+<hr/>
+
+:movie_camera: _**Para visualizar o gif com a explicação, clique abaixo ou no botão play localizado ao lado direito da tela**_.
+
 ![codecleanup](https://github.com/CaioDSPeixoto/CodeCleanupProfile/assets/72414478/dc48cc7c-49c9-4c16-9f0e-4796632042b3)
 
 - Após finalizar os ajustes, basta clicar em OK para salvar as alterações.
@@ -71,7 +75,7 @@ O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite
 
 </details>
 
-## Consigo automatizar a execução dessa limpeza?
+## :gear: Consigo automatizar a execução dessa limpeza?
 
 > [!TIP]
 > SIM! Para realizar a limpeza sempre após salvar o arquivo, basta acessar o caminho "Tools > Options > Text Editor > Code Cleanup", selecionar o perfil que será utilizado e ativar a opção "Run Code Cleanup profile on Save".
