@@ -71,6 +71,7 @@ O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite
 <summary>Explicação das fixers que eu mais utilizo</summary>
 
 | Fixers  | Descricao | Url role|
+|-----:|-----------|-----------|
 |Apply parentheses preferences|Aplica ou remove parenteses descenessários|[IDE0047 and IDE0048](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0047-ide0048)|
 |Apply object/collection initialization preferences|Instancia objetos/collections já atribuindo os valores iniciais|[IDE0017](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0017#dotnet_style_object_initializer)|
 |Add 'this' or 'Me' qualification|Adiciona ou remove os this desnecessários|[IDE0003 and IDE0009](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0003-ide0009)|
