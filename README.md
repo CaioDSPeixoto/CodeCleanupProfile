@@ -68,10 +68,17 @@ O **"Code Cleanup Profile"** no Visual Studio 2022 é uma ferramenta que permite
 
 <details>
 
-<summary>Explicação das fixers</summary>
+<summary>Explicação das fixers que eu mais utilizo</summary>
 
-| Fixers  | Descricao | Url role| 
-|---------|-----------|---------|
+| Fixers  | Descricao | Url role|
+|Apply parentheses preferences|Aplica ou remove parenteses descenessários|[IDE0047 and IDE0048](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0047-ide0048)|
+|Apply object/collection initialization preferences|Instancia objetos/collections já atribuindo os valores iniciais|[IDE0017](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0017#dotnet_style_object_initializer)|
+|Add 'this' or 'Me' qualification|Adiciona ou remove os this desnecessários|[IDE0003 and IDE0009](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0003-ide0009)|
+|Make field readonly|Atribui o nome readonly quando possível|[IDE0044](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0044#dotnet_style_readonly_field)|
+|Remove unnecessary casts|Remove casts descenessários|[IDE0004](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0004)|
+|Sort Imports or using|Reordena os using para ficar em ordem |#|
+|Apply simplify boolean expression preferences|Simplifica a validação de expressões boolean (verdadeiro ou falso)|[IDE0075](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0075#dotnet_style_prefer_simplified_boolean_expressions)|
+|Apply new() preferences|Simplifica inicialização dos objetos|[IDE0090](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0090#csharp_style_implicit_object_creation_when_type_is_apparent)|
 
 </details>
 
